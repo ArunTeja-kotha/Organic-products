@@ -1,0 +1,80 @@
+:root{
+    --primary-color:#81C408;
+    --secondary-color:#FFB524;
+    --text-primary-color:black;
+    --text-secondary-color:white;
+    --text-dark-grey:#343a40;
+    --text-light-grey:#6c757d;
+}
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .upper{
+     width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+header .page-section{
+    padding: 10px 20px;
+    border-radius: 50px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: var(--primary-color);
+}
+header .Page-Address,
+header .policy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+header .nav-container{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .nav-container .title{
+    color: #81C408;
+    font-size: 60px;
+    font-weight: 800;
+}
+header .nav-container ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+header .policy a,
+header .nav-container a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    transition: color .5s linear;
+}
+header .policy a:hover{
+     color: var(--secondary-color);
+}
+header .nav-container a:hover{
+    color: var(--primary-color);
+}
+header .policy a{
+    color: white;
+}
+header .nav-container .Search-container button{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 15px;
+    font-weight: 500;
+    border-color: transparent;
+    cursor: pointer;
+}

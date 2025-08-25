@@ -1,0 +1,176 @@
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.banner-container{
+    width: 100%; 
+    position: relative;
+}
+.banner-container .image-container{
+    width: 100%;
+    height: 200px;
+}
+.banner-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner-container .text-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 20%;
+    left: 40%;
+}
+.banner-container .text-container .title{
+    font-size: 60px;
+    color: white;
+}
+.banner-container .text-container .nav .nav-home a,
+.banner-container .text-container .nav .nav-pages a{
+    text-decoration: none;
+    color: var(--primary-color);
+    gap: 10px;
+}
+.banner-container .text-container .nav .present a{
+text-decoration: none;
+    color: white;
+    gap: 10px;
+}
+.banner-container .text-container .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    gap: 20px;
+}
+.banner-container .text-container .nav .present{
+    color: white;
+}
+.map{
+    width: 85%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    padding-top: 80px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+}
+.map .map-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.map .map-info .map-title{
+    color: var(--primary-color);
+    font-size: 40px;
+    font-weight: 600;
+}
+.map .map-info .map-description{
+    color: var(--text-light-grey);
+    font-size: 20px;
+    width: 60%;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.map .map-download a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size:20px;
+}
+.map-download .map-download{
+    margin-top: 0px;
+}
+.map .forms{
+    width: 90%;
+    display: flex;
+    gap: 40px;
+}
+.map .forms .input-forms{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.map .forms .input-forms input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+.map .forms .input-forms textarea{
+    width: 100%;
+    min-height: 30px;
+    max-height: 80px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+.map .forms .input-forms button{
+    width: 100%;
+    background-color: white;
+    font-size: 20px;
+    color: var(--primary-color);
+    font-weight: 500;
+    padding: 15px 0px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+
+}
+.map .forms .map-details{
+    flex: 1;
+}
+.map .map-details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.map .map-details .address,
+.map .map-details .map-mail,
+.map .map-details .map-telephone{
+    flex:1;
+}
+.map .map-details .map-telephone,
+.map .map-details .map-mail,
+.map .map-details .address{
+    width: 100%;
+    background-color: white;
+   border: 1px solid transparent;
+   border-radius: 10px;
+   padding: 10px 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.map .map-details .map-telephone .heading,
+.map .map-details .map-mail .mail,
+.map .map-details .address .location{
+    font-size: 30px;
+    color: var(--primary-color);
+}
+.map .map-details .map-telephone .number,
+.map .map-details .map-mail .mail-ex,
+.map .map-details .address .street{
+    font-size: 20px;
+    color: var(--text-light-grey);
+}
