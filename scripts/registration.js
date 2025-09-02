@@ -64,7 +64,7 @@ document.getElementById('registrationForm').addEventListener('submit', (event) =
         displayToast("Login Successful, redirecting to login page", "success");
 
         setTimeout(() => {
-            window.location.href = "../html/index.html";
+            window.location.href = "/login.html";
         }, 2000);
         
     }else{
